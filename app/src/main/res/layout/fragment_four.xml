@@ -1,0 +1,91 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/startAppBanner">
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Winner - List" />
+
+
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:textSize="18sp"
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:textColor="#3F51B5"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="for more details of winner's" />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:textColor="#3F51B5"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="visit website &amp; facebook page " />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:textSize="13sp"
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:textColor="#3F51B5"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="http://www.selfiewithrangoli.com" />
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:textSize="13sp"
+                    android:padding="8dp"
+                    android:layout_width="wrap_content"
+                    android:textColor="#3F51B5"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="https://www.facebook.com/selfiewithrangoli" />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <com.startapp.android.publish.banner.Banner
+        android:id="@+id/startAppBanner"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,152 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/startAppBanner">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:id="@+id/lv"
+                android:background="@drawable/framea"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="350dp">
+
+                <TextView
+                    android:textSize="18dp"
+                    android:textColor="#3F51B5"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:text="Image will display here !!"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:padding="8dp"
+                    android:layout_margin="2dp"
+                    android:id="@+id/imageView_pic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter" />
+
+             </LinearLayout>
+
+        <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+                <Button
+                    android:background="#3F51B5"
+                    android:textColor="#fff"
+                    android:layout_margin="5dp"
+                    android:textAllCaps="false"
+                    android:textSize="15sp"
+                    android:id="@+id/button_selectpic"
+                    android:padding="5dp"
+                    android:drawableLeft="@drawable/gallary"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:text="UPLOAD" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="......................."
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_below="@+id/lvb"
+                android:id="@+id/messageText"
+                android:textColor="#3F51B5"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:singleLine="true"
+                android:inputType="text"
+                android:padding="3dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/borderedit"
+                android:drawableLeft="@drawable/user"
+                android:layout_width="300dp"
+                android:drawablePadding="5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/etxtUpload"
+                android:textSize="17sp"
+                android:textColorHint="#3F51B5"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Full name "/>
+            <EditText
+                android:singleLine="true"
+                android:inputType="phone"
+                android:padding="3dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/borderedit"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/etxtMobile"
+                android:textSize="17sp"
+                android:drawablePadding="5dp"
+                android:textColorHint="#3F51B5"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Mobile "
+                android:drawableLeft="@drawable/mobile"/>
+
+            <EditText
+                android:singleLine="true"
+                android:inputType="textEmailAddress"
+                android:padding="3dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/borderedit"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/email"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/etxtEmail"
+                android:textSize="17sp"
+                android:textColorHint="#3F51B5"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Email-id"/>
+
+    <Button
+        android:background="#3F51B5"
+        android:layout_margin="5dp"
+        android:textColor="#fff"
+        android:padding="5dp"
+        android:drawableLeft="@drawable/upload"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Submit"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/uploadButton"/>
+    </LinearLayout>
+   </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+<com.startapp.android.publish.banner.Banner
+android:id="@+id/startAppBanner"
+android:layout_margin="10dp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+android:layout_centerHorizontal="true" />
+    </RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appswager.rangoliapp">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.appswager.rangoliapp.WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.appswager.rangoliapp.MainActivity"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.appswager.rangoliapp.Upload2Activity"
+            android:parentActivityName="com.appswager.rangoliapp.MainActivity" />
+        <activity android:name="com.appswager.rangoliapp.CustomActivity" />
+        <activity android:name="com.appswager.rangoliapp.LordActivity"/>
+        <activity android:name="com.appswager.rangoliapp.CartoonActivity" />
+        <activity android:name="com.appswager.rangoliapp.FreeHandActivity" />
+        <activity android:name="com.appswager.rangoliapp.PeocockActivity" />
+        <activity android:name="com.appswager.rangoliapp.RoundActivity" />
+        <activity android:name="com.appswager.rangoliapp.SquareActivity"/>
+
+        <activity
+            android:name="com.startapp.android.publish.OverlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.startapp.android.publish.FullScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme" />
+    </application>
+
+</manifest>

@@ -1,0 +1,38 @@
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:layout_above="@id/startAppBanner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/prizeiv"
+        android:layout_width="wrap_content"
+        android:src="@drawable/prize"
+        android:layout_above="@+id/enter"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:text="Enter"
+        android:padding="3dp"
+        android:textColor="#fff"
+        android:background="#3F51B5"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="30dp" />
+
+</RelativeLayout>
+
+    <com.startapp.android.publish.banner.Banner
+        android:id="@+id/startAppBanner"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

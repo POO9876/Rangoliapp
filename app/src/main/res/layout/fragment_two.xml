@@ -1,0 +1,169 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/startAppBanner">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"
+                android:id="@+id/cartoon"
+                android:layout_width="150dp"
+                android:src="@drawable/cartoon1"
+                android:layout_height="150dp" />
+
+            <ImageView
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"
+                android:id="@+id/lord"
+                android:layout_width="150dp"
+                android:src="@drawable/lord4"
+                android:layout_height="150dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:text="Cartoon"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:text="Lord"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.5"
+                    android:id="@+id/peocock"
+                    android:layout_width="150dp"
+                    android:src="@drawable/peocock5"
+                    android:layout_height="150dp" />
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.5"
+                    android:id="@+id/freehand"
+                    android:layout_width="150dp"
+                    android:src="@drawable/freehand1"
+                    android:layout_height="150dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:text="Peocock"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:text="Free hand"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.5"
+                    android:id="@+id/round"
+                    android:layout_width="150dp"
+                    android:src="@drawable/round2"
+                    android:layout_height="150dp" />
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.5"
+                    android:id="@+id/square"
+                    android:layout_width="150dp"
+                    android:src="@drawable/square1"
+                    android:layout_height="150dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:text="Round"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:text="Square"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+    <com.startapp.android.publish.banner.Banner
+        android:id="@+id/startAppBanner"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+

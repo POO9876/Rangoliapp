@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Selfie with Rangoli</string>
+    <string name="title_activity_welcome">Selfie with Rangoli</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Selfie With Rangoli !</string>
+    <string name="slide_1_desc">Get A Chance to Win A Prizes !</string>
+
+    <string name="slide_2_title">1st Prize Mobile</string>
+    <string name="slide_2_desc">Win a mobile phone !</string>
+
+    <string name="slide_3_title">2rd Prize Power Banks</string>
+    <string name="slide_3_desc">Win a Powerbanks !</string>
+
+    <string name="slide_4_title">3rd Prize Selfie sticks</string>
+    <string name="slide_4_desc">Win a Selfie sticks !</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+<string name="term">1.	You can upload your picture or selfie with the rangoli to participate. \n
+2.	It is required to share your details like mobile phone, name and email because we will contact you using your phone no. to let you know about the winners.\n
+3.	If you don’t use to make rangoli then don’t worry, you can still participate, you can share the rangoli made in your home/shop or office.\n
+4.	You have to click a picture then save in your phone gallery and upload in the app to participate.\n
+5.	We are not charging anything for this app, we are doing this to promote our application.\n
+6.	There will be so many users who can win prizes , it will depend on your response and interest for this application.\n
+7.	We will also display winner’s pictures on our application, our facebook page and instagram as well.\n
+8.	Please use your real details, don’t use fake name and email to participate.\n
+9.	Your information is safe and we won’t share this information to anyone.\n
+10.	Price distribution will be start from 28/10/2016.\n
+11.	Contest will going on till 7th of November, you can share your selfie or images with us till 6th of November, after that we will close the submission.\n
+12.	You can upload upto 5 images for the contest, as we celebrate this festival 5 days.\n
+13.	After 5 submissions you cannot add more images.\n
+14.	For each submission you have to use same phone no. for us to know your interest.\n
+15.	You can share our app with your friends and family to so they can also participate.\n
+16.	We will bring the other contest soon after that so stay with us to get a chance to win many more prizes after that.\n
+</string>
+
+    <string name="rule">1. From single device you can upload upto 5 images, after that you cannot upload more images so use your creativity for best 5 rangolis you made \n
+2. Users have to share their details like their phone number, email etc so we can contact you \n
+3. You have to use original images; don’t use fake pictures or rangoli images from internet \n
+4. You can also check some of our sample designs in the app before creating yours \n
+5. Our Experts team will select the winner’s base on their interest in our app and this festival so submit all their 5 designs. \n
+6. Our Selection process is fare and you won’t get complain in that, if you didn’t got price this time then wait for our next event which will be launch soon before new year. \n
+7. Use handmade rangoli , don’t use any tool for this.\n
+8. User submits multiple entries from their cell phone won’t e eligible for prize. \n
+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
